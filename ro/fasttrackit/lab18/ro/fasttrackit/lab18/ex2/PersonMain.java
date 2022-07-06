@@ -15,7 +15,7 @@ public class PersonMain {
         System.out.println(personService.getMajorPersons(persons));
         System.out.println(personService.getPersonFromIasiOrCluj(persons));
         System.out.println(personService.getFirstNameCapitalized(persons));
-        System.out.println(personService.getPersonsBetween18and60(persons));
+        System.out.println(personService.getPersonsBetween18and60(18, 60, persons));
         System.out.println(personService.getPersonsWithA(persons));
         System.out.println(personService.getUniqueFirstName(persons));
         System.out.println(personService.sortByFirstName(persons));

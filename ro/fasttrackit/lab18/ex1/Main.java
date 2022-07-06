@@ -18,7 +18,7 @@ public class Main {
         System.out.println(Recursive.isPalindrome("casa"));
 
         System.out.println(operationInterative.sumDiggits(222));
-        System.out.println(operationRecursive.sumDiggits(222));
+        System.out.println(operationRecursive.sumDiggits(-43));
 
         System.out.println(Interative.fibo(10));
 
